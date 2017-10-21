@@ -22,7 +22,7 @@ public class Mult {
 				@Override
 				public int size() {
 					// IL FAUDRAIT IMPLEMENTER LA METHODE
-					return 0;
+					return uneListedEntiers.size();
 				}
 			};
 
@@ -100,7 +100,7 @@ public class Mult {
 			@Override
 			public int size() {
 				// IL FAUDRAIT IMPLEMENTER LA METHODE
-				return 0;
+				return uneListedEntiers.size();
 			}
 
 		};
