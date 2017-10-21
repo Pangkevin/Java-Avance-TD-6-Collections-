@@ -7,22 +7,22 @@ public class Panel {
 		if (bornMax < bornMin) {
 			throw new IllegalArgumentException();
 		}
-		else {
-			return new AbstractList<Integer>() {
-	
+		return new AbstractList<Integer>() {
+
 			@Override
 			public Integer get(int index) {
 				// TODO Auto-generated method stub
 				return bornMin + index;
 			}
-	
+
 			@Override
 			public int size() {
 				// TODO Auto-generated method stub
-				return bornMax - bornMin +1 ;
-			}}
-		;}
+				return bornMax - bornMin + 1;
+			}
+		};
 	}
+
 	public static Iterator<Integer> panel1(int bornMin, int bornMax) {
 
 		return new Iterator<Integer>() {
@@ -33,9 +33,9 @@ public class Panel {
 			public boolean hasNext() {
 				if (i <= bornMax) {
 					return true;
-				} else {
-					return false;
 				}
+				return false;
+
 			}
 
 			@Override
@@ -50,8 +50,6 @@ public class Panel {
 
 		return new Iterable<Integer>() {
 
-			int i = bornMin;
-
 			@Override
 			public Iterator<Integer> iterator() {
 
@@ -60,8 +58,6 @@ public class Panel {
 		};
 
 	}
-
-
 
 	public static void main(String[] args) {
 		// Ex 1
