@@ -21,7 +21,7 @@ public class Mult {
 
 				@Override
 				public int size() {
-					// TODO Auto-generated method stub
+					// IL FAUDRAIT IMPLEMENTER LA METHODE
 					return 0;
 				}
 			};
@@ -52,14 +52,16 @@ public class Mult {
 
 					@Override
 					public boolean hasPrevious() {
-						TODO();
-						return false;
+						// Askip on implemente pas
+						throw new UnsupportedOperationException();
+
 					}
 
 					@Override
 					public Integer previous() {
-						TODO();
-						return null;
+						// Askip on implemente pas
+						throw new UnsupportedOperationException();
+
 					}
 
 					@Override
@@ -69,19 +71,21 @@ public class Mult {
 
 					@Override
 					public int previousIndex() {
-						TODO();
-						return 0;
+						// Askip on implemente pas
+						throw new UnsupportedOperationException();
 					}
 
 					@Override
 					public void remove() {
-						TODO();
+						// Askip on implemente pas
+						throw new UnsupportedOperationException();
 
 					}
 
 					@Override
 					public void set(Integer e) {
-						TODO();
+						// Askip on implemente pas
+						throw new UnsupportedOperationException();
 
 					}
 
@@ -95,7 +99,7 @@ public class Mult {
 
 			@Override
 			public int size() {
-				TODO();
+				// IL FAUDRAIT IMPLEMENTER LA METHODE
 				return 0;
 			}
 
